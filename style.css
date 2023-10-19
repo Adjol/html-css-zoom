@@ -11,7 +11,7 @@ main {
     background-color: black;
 }
 
-
+/* top-right icons */
 
 .icon_container {
     display: flex;
@@ -35,7 +35,7 @@ main {
     margin-left: 5px;
 }
 
-
+/* main part */
 
 #cam_window {
     max-width: 90%;
@@ -43,8 +43,49 @@ main {
     margin: auto;
     background-color: red;
     position: relative;
+    overflow-y: auto;
+
 }
 
+.user_preview {
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    margin: 10px;
+
+    background-image: url(https://www.3rlt.org/wp-content/uploads/2016/10/fall-autumn-red-season-300x200.jpg);
+    position: relative;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+
+
+
+
+.phone_status {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    color: white;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+
+
+
+
+
+/* bottom command pannel */
 .command_pannel {
     position: absolute;
     bottom: 0;
@@ -57,11 +98,6 @@ main {
     justify-content: space-between;
 }
 
-
-/* .command_pannel #end_call {
-    justify-self: end;
-}
- */
 
 
 .icon {
@@ -80,7 +116,10 @@ main {
     text-align: center;
 }
 
-
+.up_angle {
+    display: flex;
+    align-items: center;
+}
 
 .interact {
     display: flex;
