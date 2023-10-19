@@ -37,23 +37,66 @@ main {
 
 
 
-
-
-
-
-
-
-
-
-
-
 #cam_window {
     max-width: 90%;
     height: 80%;
     margin: auto;
-    /* padding-top: 10%; */
     background-color: red;
     position: relative;
+}
+
+.command_pannel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    /* debug */
+    width: 100%;
+    background-color: rgb(97, 97, 94);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .command_pannel #end_call {
+    justify-self: end;
+}
+ */
+
+
+.icon {
+    font-size: 35px;
+    text-align: center;
+    padding: 0 10px;
 
 }
 
+.text {
+    padding: 0 10px;
+}
+
+.speak {
+    display: flex;
+    text-align: center;
+}
+
+
+
+.interact {
+    display: flex;
+    text-align: center;
+}
+
+#share .icon {
+    color: rgb(2, 188, 2);
+}
+
+
+
+#quit {
+    display: flex;
+    align-items: center;
+    color: red;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, .7);
+}
